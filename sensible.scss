@@ -1,0 +1,23 @@
+// Sensible Responsive Defaults
+// ============================
+
+html {
+  height: 100%;
+}
+
+body {
+
+}
+
+// 1. Removes whitespace from image
+// 2. http://www.456bereastreet.com/archive/201306/how_to_proportionally_scale_images_that_have_dimension_attributes/
+
+img {
+  display: block; // 1.
+  max-width: 100%; // 2.
+  width: auto;
+  height: auto;
+}
+
+audio {}
+video {}
